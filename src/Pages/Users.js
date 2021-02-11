@@ -1,5 +1,6 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 export const Users = () => (
-    <h1>Page Users</h1>
+    <Container><h1>Page Users</h1></Container>
 )
