@@ -1,11 +1,13 @@
 import React from 'react';
 import { Card, Col, Container, Row, Button } from 'react-bootstrap';
 import Slider from '../Components/Slider';
+import Jumbotron from '../Components/Jumbotron';
 import styled from 'styled-components';
 import autumn from '../Img/autumn.jpg';
 import spring from '../Img/spring.jpg';
 import winter from '../Img/winter.jpg';
 import summer from '../Img/summer.jpg';
+
 
 const Styles = styled.div`
     .card-tile {
@@ -71,6 +73,20 @@ export const Home = () => (
                                 <Button variant="primary">Learn more</Button>
                             </Card.Body>
                         </Card>
+                    </Col>
+                </Row>
+            </Container>
+            <Jumbotron />
+            <Container>
+                <Row>
+                    <Col md={7} style={{"width": "100%"}}>
+                        <img src={summer}/>
+                    </Col>
+                    <Col md={5}>
+                        <h2>Web Developer Blog</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at tortor id tortor venenatis lacinia. Integer eget dignissim velit. Phasellus at velit non enim maximus dictum. Morbi in vulputate purus, et tempus quam. Curabitur rhoncus volutpat volutpat. Phasellus sed euismod purus, ac varius nisl. Integer nec viverra quam. Suspendisse sagittis.
+                        </p>
                     </Col>
                 </Row>
             </Container>
