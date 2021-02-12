@@ -79,8 +79,8 @@ export const Home = () => (
             <Jumbotron />
             <Container>
                 <Row>
-                    <Col md={7} style={{"width": "100%"}}>
-                        <img src={summer}/>
+                    <Col md={7}>
+                        <img  style={{"width": "100%"}} src={summer}/>
                     </Col>
                     <Col md={5}>
                         <h2>Web Developer Blog</h2>

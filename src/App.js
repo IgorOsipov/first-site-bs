@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import {Home} from './Pages/Home';
 import {Users} from './Pages/Users';
 import {About} from './Pages/About';
+import { Footer } from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/users" component={Users}/>
           <Route path="/about" component={About}/>
         </Switch>
+        <Footer />
       </Router>
     </>
   );
