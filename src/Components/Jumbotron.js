@@ -8,7 +8,7 @@ const Styles = styled.div`
         background: url(${summer}) no-repeat fixed bottom;
         background-size: cover;
         color: #efefef;
-        height: 400px;
+        min-height: 400px;
         position: relative;
         z-index:2;
 
